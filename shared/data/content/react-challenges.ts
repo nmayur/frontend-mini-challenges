@@ -581,6 +581,17 @@ const challenges = new Map<string, IChallenge>([
       isNew: true,
     },
   ],
+  [
+    'nested-dropdown-2',
+    {
+      title: 'Nested Dropdown 2',
+      link: 'nested-dropdown-2',
+      difficulty: EDifficulty.Easy,
+      developer: 'nmayur',
+      tags: [],
+      isNew: true,
+    },
+  ],
 ]);
 
 export const reactChallenges = sortChallengesByDifficulty(challenges);
